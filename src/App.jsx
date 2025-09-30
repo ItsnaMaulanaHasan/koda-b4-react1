@@ -2,7 +2,7 @@ import { useState } from "react";
 import Button from "./components/button";
 
 const App = () => {
-  let [count, setCount] = useState(0  );
+  let [count, setCount] = useState(0);
   const handleClick = (count, opt) => {
     if (opt === "plus") {
       count++;
